@@ -1,0 +1,347 @@
+body {
+  width: 948px;
+  margin: auto;
+}
+p {
+  margin: 0;
+}
+
+/* 網站標題 *****************************************************/
+header {
+  position: relative;
+  background-image: url(../img/iframe_top_02.gif), url(../img/iframe_top_01.gif), url(../img/iframe_top_07.gif);
+  background-position: center top, left top, right 22px;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+header h1 {
+  display: none;;    
+}
+
+/* 網站導覽 *****************************************************/
+header nav h2 {
+  display: none;
+}
+
+header nav {
+  position: relative;
+  top: 64px;
+  width: 948px;
+  height: 60px;
+  background-image: url(../img/iframe_top_18.gif);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  list-style: none;
+  display: inline;
+}
+
+header nav a{
+  display: block;
+  float:left;
+  height: 30px;
+  width: 76px;
+}
+
+span{
+  display: none;
+}
+
+a#nav01 {
+  width: 140px;
+  height: 30px;
+  background: url(../img/iframe_top_09.gif) right center no-repeat;
+  background-color: #DE2F51;
+}
+
+a#nav02 {
+  background: url(../img/iframe_top_10.gif) center no-repeat;
+}
+
+a#nav03 {
+  background: url(../img/iframe_top_11.gif) center no-repeat;
+}
+
+a#nav04 {
+  background: url(../img/iframe_top_12.jpg) center no-repeat;
+}
+
+a#nav05 {
+  margin-left: 210px;
+  background: url(../img/iframe_top_13.gif) center no-repeat;
+}
+
+a#nav06 {
+  background: url(../img/iframe_top_14.gif) center no-repeat;
+}
+
+a#nav07 {
+  background: url(../img/iframe_top_15.gif) center no-repeat;
+}
+
+a#nav08 {
+  width: 142px;
+  background: url(../img/iframe_top_16.gif) left center no-repeat;
+  background-color: #DE2F51;
+}
+
+div#play {
+  position: absolute;
+  top: 50px;
+  height: 350px;
+  width: 315px;
+  margin-top: 100px;
+}
+
+div#play a{
+  display: block;
+}
+
+a#login {
+  background: url(../img/login.jpg) center top no-repeat;
+  width: 324px;
+  height: 277px;
+}
+
+a#free {
+  float: left;
+  background: url(../img/iframe_logina_01.gif);
+  width: 150px;
+  height: 55px;
+}
+a#free:hover {
+  background: url(../img/iframe_loginaover_01.gif);
+}
+a#register {
+  float: right;
+  background: url(../img/iframe_logina_02.gif);
+  width: 150px;
+  height: 55px;
+}
+a#register:hover {
+  background: url(../img/iframe_loginaover_02.gif);
+}
+/* 熱門 *********************************************************/
+div#hot {
+  position: relative;
+  padding:30px;
+  height: 320px;
+  margin-left: 325px;
+}
+div#hot h3 {
+  color: red;
+  font-style: italic;
+}
+div#hot p {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+div#hot ul {
+  position: relative;
+  margin: 250px 0 0 0;
+}
+div#hot ul li {
+  display: inline;
+  padding-right: 10px;
+}
+div#hot ul li figure {
+  position: absolute;
+  margin: 0;
+  top: -250px;
+  left: 0px;
+  border: 2px solid black;
+  padding: 3px;
+}
+div#hot ul li figcaption {
+  display: inline;
+}
+
+/* 訊息 *********************************************************/
+div#messages {
+  position: absolute;
+  /*background-color: gray;*/
+  width: 315px;
+}
+
+article#bulletin h3 {
+  background: url(../img/iframe_bar1_01.png) left center no-repeat;
+  height: 34px;
+}
+
+
+article#products h3 {
+  background: url(../img/iframe_bar301.png) left center no-repeat;
+  height: 33px;
+}
+
+article#prize h3 {
+  background: url(../img/iframe_bar302.png) left center no-repeat;
+  height: 33px;
+}
+
+
+/* 遊戲區 *******************************************************/
+main {
+  position: relative;
+  /*background-color: yellow;*/
+  width: 630px;
+  margin-left: 316px;
+  height: 400px;
+  font-size: 14px;
+}
+
+main h3 {
+  display: none;
+}
+
+main article {
+  width:210px;
+  float: left;
+}
+main article h4 {
+  background-image: url(../img/iframe_bar310.png);
+  width: 203px;
+  height: 33px;
+}
+main article#board h4 {
+  background-position: 0px 0px;
+}
+main article#casino h4 {
+  background-position: 410px 0px;
+}
+main article#mobile h4 {
+  background-position: 209px 0px;
+}
+
+main article figure {
+  margin: 5px;
+  width: 90px;
+  float: left;
+  text-align: center;
+}
+
+/* 最新活動 *****************************************************/
+article#news {
+  /*background-color: green;*/
+  width: 630px;
+  margin-left: 316px; 
+  font-size: 14px;
+}
+article#news a{
+  text-decoration: none;
+}
+article#news h3{
+  background: url(../img/iframe_bar306.gif);  
+  width: 601px;
+  height: 33px;
+}
+article#news li{
+  margin: 20px 0 20px 0;
+  border-bottom: 1px dotted gray;
+  list-style: none;
+}
+.hot{
+  background: url(../img/point03.jpg) left center no-repeat;
+  padding-left: 40px;
+}
+.focus{
+  background: url(../img/point04.jpg) left center no-repeat;
+  padding-left: 40px;
+}
+.activity {
+  background: url(../img/point01.gif) left center no-repeat;
+  padding-left: 40px;
+}
+.update{
+  background: url(../img/point02.gif) left center no-repeat;
+  padding-left: 40px;
+}
+
+/* 順利遊戲的方法 ***********************************************/
+article#download {
+  /*background-color: orange;*/
+  width: 630px;
+  margin-left: 316px;
+  height: 320px;
+  font-size: 14px;
+}
+article#download section{
+  width: 200px;
+  float: left;
+}
+
+article#download section p{
+  padding: 0 5px 0 5px;
+}
+
+article#download section h4{
+  background: url(../img/iframe_bar309[2].png);
+  height: 46px;
+}
+
+article section#browser h4 {
+  background-position: 0px 0px;
+}
+article section#network h4{
+  background-position: 409px 0px;
+}
+article section#flash h4{
+  background-position: 210px 0px;
+}
+article#download figure {
+  position: relative;
+  margin: 30px 0 0 0;
+}
+article#download figure img{
+  position: absolute;
+}
+article#download figcaption{
+  margin-left: 45px;
+}
+
+div#cooperation {
+  /*background-color: #00C7A6;*/
+  height: 150px;
+}
+div#cooperation h3{
+  background: url(../img/iframe_bar308.png) no-repeat left top;
+  height: 33px;
+}
+div#cooperation figure{
+  margin: 0 0 0 5px;
+  display: inline;
+  width: 180px;
+}
+
+/* 關於宅神爺 ***************************************************/
+footer {
+  background: url(../img/_031214_024350_PM.jpg) left center repeat-x;
+  height: 79px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+footer h3 {
+  display: none;
+}
+
+footer ul{
+  padding-top: 10px;
+}
+
+footer li {
+  display: inline;
+  margin-left: 10px;
+  padding-left: 25px;
+  background: url(../img/iframe_bottom_04.jpg) left center no-repeat;
+}

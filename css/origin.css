@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: "微軟正黑體";
+    background:url(../images/back.jpg) bottom repeat-x fixed;
+}
+
+.style1 {
+    font-size: 13px;
+    font-family: "微軟正黑體";
+}
+
+.style2 {
+    color: #F00;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "微軟正黑體";
+}
+.style3 {
+    color: #CCC;
+    font-size: 12px;
+}
+
+.style4 {   
+    color: #000;
+    font-size: 14px;
+}
+
+.style4_01 {
+    color: #000;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.style5 {
+    color: #004000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "微軟正黑體";
+}
+
+.style5_01 {
+    color: #4D1788;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.style5_02 {
+    color: #03F;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "微軟正黑體";
+}
+
+.style6 {
+    font-family: "微軟正黑體";
+    color: #000;
+    font-size: 13px;
+}
+
+.style7 {
+    color: #0080FF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.style8 {
+    font-family: "微軟正黑體";
+    color: #000;
+    font-size: 14px;
+    float: right;
+}
+
+.style9 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: #03F;
+    border-right-color: #03F;
+    border-bottom-color: #03F;
+    border-left-color: #03F;
+    font-family: "微軟正黑體";
+    color: #F36;
+}
+
+.Game01 {
+    margin-left: 2px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    
+}
+
+.Game02 {
+    margin-left: 2px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    width:137.5px; 
+    
+}
+
+.icon01 {
+}
+
+a:link, a:visited, a:active {
+    color: #06F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal;}
+ol,ul { list-style:none; list-style-type:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+input { font-family:Verdana, Geneva, sans-serif;}
+/*清除浮動*/
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+
+/*show*/            
+body.yui-skin-sam .yui-separate-console{ 
+    _position:absolute; 
+}
+
+.sbtn.selected { 
+    background-position:0 -105px;
+}
+
+.sliderbox{ 
+    position:relative; 
+    float:left;
+}
+
+.sb-window { 
+    width:590px; 
+    height:288px;
+    background:url(../images/showBg.gif) no-repeat; 
+    position:relative; 
+    padding:11px 0 0 14px; 
+    margin:0 0 0 1px;
+}
+
+.img-roll { 
+    position:absolute; 
+    width:566px; 
+    height:218px; 
+    overflow:hidden; 
+    border:solid 2px #000; 
+}
+
+.img-roll img { 
+    float:left;
+}
+
+.sb-paging {
+    position:absolute;
+    width:580px;
+    height:54px;
+    top:232px;
+    z-index:99;
+    text-align:center;
+    padding:0 0 0 15px;
+    left: 1px;
+}
+
+.sb-paging a {
+    width:111px; 
+    height:54px; 
+    font-size:15px;
+    font-weight:bold;
+    line-height:46px; 
+    margin:0 4px 0 0; 
+    text-decoration: none; 
+    color: #333; 
+    display:block; 
+    float:left; 
+    text-align:center; 
+    cursor:pointer; 
+    overflow:hidden; 
+    white-space:nowrap; 
+    word-break:keep-all; 
+    word-wrap:normal;
+}
+
+.sb-paging a:hover {
+    text-decoration: underline;
+}
+    
+.sb-paging a.active {
+    color: #fff;
+    margin: 0 4px 1px 0;
+    background:#000;
+}
+
+
+#table {
+    border: 2px solid #FFFFFF;
+    margin: 0px auto;
+}
+#table2 th {
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+}
+#table2 td {
+    background-color: #FFFFFF;
+    color: #000;
+    font-family: "微軟正黑體";
+    font-size: 13px;
+    float:center;
+    text-align: center;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+}
