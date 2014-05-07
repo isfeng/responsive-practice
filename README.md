@@ -1,29 +1,13 @@
-# Foundation Compass Template
+h1. Responsive Practice
 
-The easiest way to get started with Foundation + Compass.
+This is a responsive practice for [http://www.bonuswinner.com.tw](http://www.bonuswinner.com.tw).
 
-## Requirements
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+h1. License
 
-## Quickstart
+The following directories and their contents are Copyright @BONUS WINNER ONLINE ENTERTAINMENT CO. LTD. You may not reuse anything therein without permission:
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+* img/
 
-```bash
-compass watch
-```
 
-## Upgrading
-
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
-```
+All other directories and files are MIT Licensed.
